@@ -1,0 +1,25 @@
+{
+    "source_database" : "source_demo_db",
+    "destination_database" : "destination_demo_db",
+    "enable_all_schema_refresh" : false,
+    "enable_all_tables_refresh" : false,
+    "enable_local_backup" : true,
+    "include_schema_list" : 
+    [
+        "demo_db",
+        "audit"
+    ],
+    "exclude_schema_list" : 
+    [
+        "public"
+    ],
+    "include_table_list" : 
+    [
+        "demo_table"
+    ],
+    "exclude_table_list":
+    [
+        "no_table_to_Exclude",
+        "another_one_not_to_exclude"
+    ]
+}
